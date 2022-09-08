@@ -1,0 +1,123 @@
+* {
+  font-family: "나눔스퀘어OTF";
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #10a3a4;
+}
+
+#logo {
+  object-fit: cover;
+  width: 40px;
+}
+
+.title {
+  margin-left: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  position: relative;
+}
+
+.header_left {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.header_right {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: 480px;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  color: white;
+}
+
+.button {
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  color: #0a9599;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  box-shadow: 0px 5px 5px 0 rgb(0, 0, 0, 20%);
+}
+
+.menu {
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+  margin: 0;
+}
+
+.wrapper {
+  margin-top: 120px;
+  width: 100%;
+  display: flex;
+}
+
+.date {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 60%;
+  margin: 8px 0 32px 0;
+}
+
+#card_box {
+  display: flex;
+  width: 520px;
+  justify-content: space-between;
+}
+
+.meal_card {
+  border-radius: 12px;
+  background-color: #0c9799;
+  width: 160px;
+  height: 220px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: scale(1);
+}
+
+.meal_card:hover {
+  transition-duration: 0.5s;
+  transform: scale(1.15);
+}
+
+#img {
+  width: 336px;
+  object-fit: cover;
+  color: #23e334;
+  margin-left: auto;
+}
+
+.pagination {
+  display: flex;
+  width: 260px;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.mealname {
+  margin: 4px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}

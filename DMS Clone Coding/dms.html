@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMS</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_left">
+        <img id="logo" src="logo.png" />
+        <span class="title">DMS</span>
+      </div>
+      <div class="header_right">
+        <span>평일 외출 신청</span>
+        <span>신청화면</span>
+        <span>공지사항</span>
+        <span>부가기능</span>
+        <button class="button">내 정보</button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="wrapper">
+        <div>
+          <p class="menu">오늘의 메뉴</p>
+          <div class="date"></div>
+          <div id="card_box">
+            <div class="meal_card"></div>
+            <div class="meal_card"></div>
+            <div class="meal_card"></div>
+          </div>
+        </div>
+        <img id="img" src="image.png" />
+      </div>
+      <div class="pagination">
+        <button class="button prev">이전</button>
+        <button class="button next">다음</button>
+      </div>
+    </div>
+    <script src="dms.js"></script>
+  </body>
+</html>
